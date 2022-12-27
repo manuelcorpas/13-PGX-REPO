@@ -10,3 +10,6 @@ except mariadb.Error as e:
     sys.exit(1)
 
 cursor = db.cursor(dictionary=True)
+
+sql1 = "INSERT INTO (
+
